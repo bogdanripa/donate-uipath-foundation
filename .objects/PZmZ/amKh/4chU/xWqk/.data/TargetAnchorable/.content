@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="atO63qo8NUWOFkyBpcgDZA" DesignTimeRectangle="24, 376, 170, 32" FriendlyName="'Day'" FullSelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Day On day of the month:' role='combo box' /&gt;&lt;ctrl idx='1' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Day On day of the month:' role='combo box' /&gt;&lt;ctrl automationid='' role='grouping' check:text='Day' /&gt;" ScopeSelectorArgument="&lt;wnd app='uipath.assistant.exe' cls='Chrome_WidgetWin_1' title='UiPath Assistant' /&gt;" SearchSteps="FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">03L7UrgJGQES_y5AxDfD5Uw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ba0cbf8fed6f3d231e6d835e260ceb72.png" xmlns="">0pmVBuOLA30qZAowloVbHng</imageRef>
+</TargetAnchorable>

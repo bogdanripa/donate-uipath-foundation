@@ -1,0 +1,262 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:str="clr-namespace:System.Text.RegularExpressions;assembly=System" xmlns:ucat="clr-namespace:UiPath.Core.Activities.TextModifications;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Test" Type="InArgument(x:Boolean)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1866,3386</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="80">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.Form.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.Core.Activities.TextModifications</x:String>
+      <x:String>UiPath.Activities.System.Workflow.Business</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="72">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Form.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="1537,3221" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Doneaza din bugetul de beneficii - UiPath Foundation" sap:VirtualizedContainerService.HintSize="1495,3129" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1461,2913" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Adauga In Cos'" sap:VirtualizedContainerService.HintSize="1419,2819" sap2010:WorkflowViewState.IdRef="NCheckState_1" Timeout="3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="989,2593" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="amountLeft" />
+                    <Variable x:TypeArguments="scg:IEnumerable(str:Match)" Name="matches" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetText DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="947,166" sap2010:WorkflowViewState.IdRef="NGetText_1">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=product/product&amp;path=111_3274&amp;product_id=18126" DesignTimeRectangle="704, 87, 480, 12" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl parentid='top-bar' tag='DIV' class='col-sm-5' parentclass='row' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='top-bar' tag='DIV' class='col-sm-5' parentclass='row' type='' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" InformativeScreenshot="5d3728b25b64698c37721f38d639b38e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Doneaza din bugetul de beneficii - UiPath Foundation' /&gt;" SearchSteps="Selector" />
+                    </uix:NGetText.Target>
+                    <uix:NGetText.Text>
+                      <OutArgument x:TypeArguments="x:String">[amountLeft]</OutArgument>
+                    </uix:NGetText.Text>
+                  </uix:NGetText>
+                  <ui:ModifyText DisplayName="Modify Text" sap:VirtualizedContainerService.HintSize="947,558" sap2010:WorkflowViewState.IdRef="ModifyText_1" OutputText="[amountLeft]" SourceText="[amountLeft]">
+                    <ui:ModifyText.Body>
+                      <ActivityAction>
+                        <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ucat:FindAndReplaceTextModification ReplaceText="{x:Null}" DisplayName="Find and replace text" sap:VirtualizedContainerService.HintSize="387,147" sap2010:WorkflowViewState.IdRef="FindAndReplaceTextModification_1" SearchText="Soldul dumneavoastra:" />
+                          <ucat:FindAndReplaceTextModification ReplaceText="{x:Null}" DisplayName="Find and replace text" sap:VirtualizedContainerService.HintSize="387,147" sap2010:WorkflowViewState.IdRef="FindAndReplaceTextModification_2" SearchText="RON" />
+                          <ucat:TrimTextModification DisplayName="Trim text" sap:VirtualizedContainerService.HintSize="387,51" sap2010:WorkflowViewState.IdRef="TrimTextModification_1" />
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:ModifyText.Body>
+                  </ui:ModifyText>
+                  <If Condition="[amountLeft &lt;&gt; &quot;&quot;]" sap:VirtualizedContainerService.HintSize="947,1695" sap2010:WorkflowViewState.IdRef="If_2">
+                    <If.Then>
+                      <Sequence sap:VirtualizedContainerService.HintSize="526,1536" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <If Condition="[Test]" sap:VirtualizedContainerService.HintSize="484,239" sap2010:WorkflowViewState.IdRef="If_3">
+                          <If.Then>
+                            <Assign sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="Assign_1">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[amountLeft]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">1,00</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </If.Then>
+                        </If>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Suma Donata'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="484,259" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[amountLeft]">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=product/product&amp;path=111_3274&amp;product_id=18126" ContentHash="TxAQ4lRzSUSyLlCsiSIpSA" DesignTimeRectangle="1439, 459, 402, 34" ElementType="InputBox" FriendlyName="'INPUT input-option90649'" FullSelectorArgument="&lt;webctrl id='input-option90649' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl id='input-option90649' tag='INPUT' type='text' aaname='Suma Donata' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZYAAAAmCAYAAADnRb1XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALHSURBVHhe7dpNbuowFIDRt/8dsIFsAHUHdA2RWEKZMGOYF+cPOyQ0lKuqpedIlgpOiOnAH6H91wBAIGEBINQUlvP53ByPx6aua8MwDMPYPFI7UkNGU1jSxOVyGR4BwDapHakhoyksqToA8BV5Q4QFgKcJCwChhAWAUMICQChhASCUsAAQSlgACCUsAIQSFgBCCQsAoQLCcmoO1a7Z7bLx9gPCVO/LNaVRHdrVfp/6rWoOH8MDgD/i6bDUbz8kJHMpLLN1nd6rNjDftdmn4AoL8PeEhGW/dvjHoal2+6aYzjf89ufqvS7ueKr30xCA5buMLmTjXDtWr70QlqR77fz5bo3Zaxbn1M2+vX6dr6d4P+18fu40N39+DMza8QCv4+mw9F85rXwy3xCW4txxk5829/5rthSb0ekjy0x3/srmvBKWck39Rn+N0/x6/Xx+/fIOrY1g9r7LuXTu/Pdy73iA1/B8WDrZJ/F8o9wSluKO5HYzTncY+cZeSsc/EZab67fS/PTcQhyWzhkV11wKy8zaGgF+saCwXHWfwseNd0tYio3187AUX5N14+thuflaLCnWvBCu9LpTWO7948JSWH7oPzoABAoPS7ExL4Sl2MwfDEt3bnG3sLDxj1bCUnz9VERikNY8PXcvLLdf05XXnL+Xz44HeA3hYSk3/7S55n/D6B8XG3uxsc4344WwZMd3jx8ISxeV4vj5+pb+xnI/LPNzr9dcfu314wFew5NhGTbHFItxzO8A0kY8zbfRqNs7gnEzfTAs/fz1Wv1/lN0JS3ZsN+Zr65SvebuetbAMP0/nzt5bqw/fMJfe0yfHA7yC8DsWAP42YQEglLAAEEpYAAglLACEEhYAQgkLAKGEBYBQwgJAKGEBINRiWI7HY3O5XIZHALBNakdqyGgKy/l87iZSdQzDMAxj60jtSA0ZTWEBgAjCAkCgpvkP9q+Szx3ztQcAAAAASUVORK5CYII=" InformativeScreenshot="2cfb218fe4311e7324e33ecf80503c5a.png" Reference="Q1rXsbL60U61-OkA-uLTiA/ifMyHK8TbkOZqPbYX2MxCQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Doneaza din bugetul de beneficii - UiPath Foundation' /&gt;" SearchSteps="FuzzySelector, Image">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="1439, 429, 402, 25" ElementType="Text" FriendlyName="'Suma Donata'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' aaname='Suma Donata' check:text='Suma Donata' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAZYAAAAdCAYAAACJ+Eo5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASCSURBVHhe7duxa+NWHAfw/iv6JzSaW0KGZrI2wQ2CDC6h9XRkaGtuCYFgbgji4NC1g0kpJjTgQIuGgoaCOhx24VCGogypMgQ85NAQqiHw7U9PT7YUx4nvUJtivh8wQdKT35OH99VPevkMREREDWKwEBFRoxgsRETUKAYLERE1isFCRESNYrAQEVGjGCxERNQoBgsRETWKwUJERI1isBARUaMYLERE1CgGCxERNWoeLFdXwLdt4A/5+7feVzUN4b2w0DIMGIaJje0eBuFUH3w609OOjCcfU/lpwXrhwj/PdIt/2xiu9Ns5ffrfgojo/0AHiyTJL1/Llmx+8Rb4UOydyUL0TQPWyyGCSYRoEmB02EHLGSLRTZ5KESx9BGmKNE0QhT4GEoCGYcGd/BfhwmAhIqqaVyy/94HvfwK+/EHvqJi4MlE7GF7q7buuRugYHYyk2CkVE74r064oj59HGHy1AVMmYtPeQyDt099cOJumqjQ6RxFUFNxOMT7e0/ul7WYX3rs0P7Kg1s9MhnBfzm0PEOs9uAzg6r6NZw56xxFm36iuT77jejyrytT49PWmF0GlWmvB2R8hvsmPTDHaqVZLxTiWtyciWn+rvWO59rErk2Rrx4N/liC71ftLKwXLFiy7AzeIEU8G6EoFZNo2OlIFjc9j+Ad5ldGTyiM/IcLwUPZfpshuUsQnXQkECbaL/Fjd/cEizjxsGXZxzpWv+rNejhBNUyShhFm+/VoHmQoWS8bn1Mcnx3Np4MGT/dObDNk0hNuWYwehOjdLA/Tlt+n8GEvFVFRID7UnIlp3qwWLSP/053f85TuWsopYKVgM7PrzqmP8Sr7nc08iRLsYwpbw8c70dk3xuKn78+LjpqXBovt0JxJT323V+xKpvyvn6SBTwVLvW41vZyQ1ySLVp+nq73v8UVi9PRHRels5WGZuMyRnPrydlkzGFtz3ch++YrDkk3xpfHhn4q61STF+swvrWQvWcxtWe0M9Vrpv8l4aLJWKRfX16k6Ly8qYVbDUx18dX3Y+wt62jGHTht22sKEe0ZV9LgbLw+2JiNbbasGSpZjOiw1tXDwCyidUFQr1O/74yP7kYEmOHTk2RDJ75La8Krg/WMp3LEWVoiqW55X3LWKxYlkSLGrhwhb64fwHqPd5Z2yPticiWm8rBUtyIhOjuYHu/hB+GCKUj//agVmGiV41trUfIEkTjI97cORO3TT6CPNw+JRgabsIr2X/bYrotAcrn7yPF9egFZN2uSpsinhyz6qw8h3LgY946TuWh4LFRPckKd6pXIVwt/MKRF+bRJerrn0kv0uA6K/H2hMRrbcVH4XJZBwM0NspVzoZaLV34VX+jyX5dQ+2TLAqgN6MkV4H6Mm2CpOPDBbcxBjtO8XqrM0u3CCRqkPCotpeK4KlGJP6SP/2ff/H8uiqsOWPwtJ3Hrp65ZrzzRDRhT+/NomP6Kijx+pg8D57pD0R0Xr7+HcsRERED2CwEBFRoxgsRETUKAYLERE1isFCRESNYrAQEVGjGCxERNQoBgsRETUI+AdTT//Zi+W4sQAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NTypeInto.Target>
+                          <uix:NTypeInto.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="typed text" Mode="Appears" />
+                          </uix:NTypeInto.VerifyOptions>
+                        </uix:NTypeInto>
+                        <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Bugetul de'" sap:VirtualizedContainerService.HintSize="484,166" sap2010:WorkflowViewState.IdRef="NCheck_2">
+                          <uix:NCheck.Target>
+                            <uix:TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=product/product&amp;path=111_3274&amp;product_id=18126" ContentHash="VKDd_OiKv0G2MaU7krhP7g" DesignTimeRectangle="1439, 537, 13, 13" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' aaname='' /&gt;" InformativeScreenshot="773acbedf278073f8247f9fd6160e2c9.png" Reference="Q1rXsbL60U61-OkA-uLTiA/uKmnYLPER0qGBMWkATcRJA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Doneaza din bugetul de beneficii - UiPath Foundation' /&gt;" SearchSteps="FuzzySelector">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="1439, 503, 402, 25" ElementType="Text" FriendlyName="'Bugetul de'" FullSelectorArgument="&lt;webctrl aaname='Bugetul de beneficii [NET]' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Bugetul de beneficii [NET]' tag='LABEL' type='' check:text='Bugetul de beneficii [NET]' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NCheck.Target>
+                        </uix:NCheck>
+                        <uix:NClick ClickType="Single" DisplayName="Click 'Adauga In Cos'" sap:VirtualizedContainerService.HintSize="484,199" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=product/product&amp;path=111_3274&amp;product_id=18126" ContentHash="juCexwM3j06Qb_cb5gK3DA" DesignTimeRectangle="1439, 614, 146, 34" ElementType="Button" FriendlyName="'Adauga In Cos'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' aaname='Adauga In Cos' check:text='Adauga In Cos' /&gt;" ImageBase64="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" InformativeScreenshot="75b834c90d9afd2b4a8a288ce06bc29b.png" Reference="Q1rXsbL60U61-OkA-uLTiA/-UHlSfcR9ESyyLAb_jm_Gg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Doneaza din bugetul de beneficii - UiPath Foundation' /&gt;" SearchSteps="FuzzySelector" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="Button 'Confirma comanda'" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Target>
+                                <uix:TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=checkout/checkout" DesignTimeRectangle="1097, 618, 180, 35" ElementType="Button" FriendlyName="'Confirma comanda'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' aaname='Confirma comanda' check:text='Confirma comanda' /&gt;" ImageBase64="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" InformativeScreenshot="169d55050cc8d1336301608110d3bc16.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Finalizeaza comanda' /&gt;" SearchSteps="FuzzySelector" />
+                              </uix:VerifyExecutionOptions.Target>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ClickType="Single" DisplayName="Click 'Confirma comanda'" sap:VirtualizedContainerService.HintSize="484,199" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=checkout/checkout" ContentHash="6_BGkqoa_EmFbs_y2wwKxw" DesignTimeRectangle="1097, 618, 180, 35" ElementType="Button" FriendlyName="'Confirma comanda'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' aaname='Confirma comanda' check:text='Confirma comanda' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALgAAAAnCAYAAAC8A4JRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAYQSURBVHhe7Zq/a+NIFIDvf1KlwhA42E5V3FxgISbFbRND4ExgwxWXJnjhMCnCFSHbXBOTRikWB5YUBw4EXbH4IOCFxYGAi4AhIEghMLx7bzRjzUgjW7uR97jhfSCIJXl+vPnmaUbOD8AwDsOCM06zENzzPD74cOogDMEZxhVYcMZpWHDGaVhwxmlYcMZpWHDGaVhwxmlYcMZpWHDGaVhwxmlYcMZpWHDGab6P4PEYwqMWvGrQP7/48GqnC+GXRF6UzGcQnXag+WP6DzIb2wfw598zeZGYQbjrgb83wL9MZpdt8HZDeT69j8rIH71PdH0EvcXfyKde7r4NaP7Sg4HWPlE+trt7m2uzZHrREt9dlLkggeidr7VtBVXi9Dwx79kz26r65233YSrPGCQRdOm71jZNob+NMT4eyc8ZIgaNNgwe5QnFYwhtrw2hPJ/GitqWHhubHehdTTASNsrrqwtqA7E+wZMRnGx60Hw3hGmM3UximP7VhSYGK1yMQAzXb33wd04geoghfsJ7bk+g1djQpFLi+tD+YA6NTfD2ZZlSNsF7eFbyPIPxeRv8xgFcP6WnFoO2P8CW5kkHia4XBE+G0PUCCIIW9B/kuTKqxGk+hjO657cQxo8UJ2zr5SHe8wb69/IeJTjWe3YnT2kkt13w6bpN8Ps+bAXY3kYXopyRKgaFBGMTXJU9T2B2P4STHR+aKHFB8iX11cXaBRfZDbPJZC5PCBIYHmkz9+5MdHL4nH5UxFcd8IIzGItPqbhb2y1DPqJWwQUoUuBB9yaNuih/vwMdzyIqtT3Aaz8XBaf2+yhsdIqD+D7tRRlV4iTiUbgHW4vle2+v5eSj/r2Bzn6AdUc5qWIY7Ht4DcuxCE7ltC5G4p6Dj+ZUFjF43cKk45vXlgmueLqGg0YTzj7Lz5Jl9dXFmgWnzIxSnk/k54xkOoLon6kYgPF7HKCjYXGGxxgYHKw0gylxJzjomO0XA5oPah2CT6D/Ogu6KP8YRcXlhtmXdAnSuohEnabg1A4/PffQhxZN1JyYGVXiVH4PfMZJhn2IRPnUPxTuFuv0MGnoQaV2ULa8wT7nJZzj9+hpgaKKLJ97WqkYT27wmp5gqgiOraeJarR9RX11sWbBV8mWMjrGR6Z1HabLqJX1jI9+zCRGhs0JTv0wjkX5KwSfx/YlCk0oka01UZ8GmNU7MMClQkFwQ2rKnOVr+GpxWnKPIRn1D5cnn2W2vsq0oYwZnOKThPqck9CQjJZCuWVVFmOSFROMSkiVBC+O8ar66kL5/P8SHIk/HqCE6bLGJnh5nTbBtYlAx+ahsbnLyqf1diaqOC8GKa1TF5yeSq2LbJsnlhe2p5SgSpyW3FMQPG2LkEhtNkXGlOvyguDpHkifgDQZ9IxrxFgsOWSC+SbBV9dXF8rn775EoU1UTJsp5OuWKCp0aZCC3yOYvFjwLIOLibNpLif0QROiCql12XGD2NDKFBkpN2nEQdle3mNQJU5L7iksUWRbRDtSqXXZZx9yEoonkaW92tMqL66IU4B1fvmGJUqF+uqCyiXWvsnMchlRbZOZ0HqPOi0+WcR9HEAbs1J7d6s2wWGO6+9t8/vGoIk3I/g4vdSXK2aZQibLINN6vaxdVeJUtsmcnON3jU1m1pbJ+RZuNkMIteVKXkKqu/iqLp3AqpyiuDMY7GGC2W3D1irBc5vMKvXVxdoFh2cM+CZuxP6IYEoCf9VrQn3HbheXspH52uuFgiMJntMnnDlo8t02lpEtQfQyUyn15YnCWDLkqRKnsteEnv6GItc/2gtQfGhzKR+RZn9oQ20uFxRCRPkmxiquSDCUfUsEp9eEdyEc/qS/JqxWX12sX3AiHkH/V/XjRPGHFEHFH3oK4s6nEGImyYL/csHVhAvkoBQGl544xnJDK1M8fks2TPK9uO39tKBKnCr+0LPoH/aFNpticykx+iOfntb30PSeWvbTKjgyxfN+XnCsXx2FH3oq1lcXyuf1Cs4w/xEsOOM0LDjjNCw44zQsOOM0LDjjNCw44zQsOOM0LDjjNCw44zQsOOM0VsH54MOlg1gIzjAuwoIzDgPwL7b55lEa4B4iAAAAAElFTkSuQmCC" InformativeScreenshot="09c49f748a8b05d39e9bd5430c94b213.png" Reference="Q1rXsbL60U61-OkA-uLTiA/nF9TQVth1EShl776F83mvw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Finalizeaza comanda' /&gt;" SearchSteps="FuzzySelector" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="Element 'Comanda a'" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Target>
+                                <uix:TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=checkout/success" DesignTimeRectangle="970, 371, 293, 31" FriendlyName="'Comanda a'" FullSelectorArgument="&lt;webctrl id='title-page' tag='H1' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl id='title-page' tag='H1' type='' check:text='Comanda a fost finalizata!' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASkAAAAjCAYAAADIdfxQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAt1SURBVHhe7VxBa9tME/7+Sv6EjiGX0kNzim+CHgw9GAKfoRDMC0UUXkQgmB6KCQRTKLkEUyjIUNChoENBl+IeinN4cQ4vzqGgQ0CHgA6B+Wat3dVI3pVl2YkVvn1goZGl1ezszLMzs6v+BwwMDAwaDENSBgYGjYYhKQMDg0bDkJSBgUGjYUjKwMCg0TAkZWBg0GgYkjIwMGg0DEkZGBg0GoakdoDJxz3Y22NtABN+7dkgnoF32oYXFpPfghd2DwbjKcT85+eC+PcI3OMW7C/mYQ/2jzrgXHgwifgNu8KvAbeNPRj84tcE7kPov7bBxuZ+37WgT4dSkor/DWB02gP7pSUVt39kQ+9jAybzGePZktT9BAZHQnbSjj14SnOIxh3+7g54f/jFNTAfd8EqjkG2FzC85jfuAmUkhdYy4L91xk/vgJvqXY/ycalJ6n4Go5N9LpCu7UPn8/NbQZuA50pS8y9tLrcF7fMAZlEM82sfvPBpHWYjZ/l3BG1uw5btwiicQRTNYBJ4MDhGm39iwl2CISl+LcMySRVXy4MOuJ89CMIQQpzIy9MuD/XT1vo4gYQ/alANz5OkIvDfcrlfj2DOr+4CmzjL9NNh6bPJro25lKR2i4aQFDNEkdrhavlJEynFGGnJ+2y4vOHXDSrhuZKUd8zl3nG0sYmzNF73hqT4tQw5kkp+uDJXXxkhsYjrrwGoI31MA4JLcEhh0npZVstaFjL+x4fBiZ0VaN+44N0QiZAo/Y9Zvcx62QZ3PFPLHM8h+OJC73Umz95BCzrvLtXy//Ggw+8ThsLqc5fvOtA6SK9bL7swCPTxRBTi+N+84Prch9bJAPx/UsovdZSHCCbjIepOjB2b9QJs8vw6iH55MES5s7oiL3b7s8qpemacqrY8hqKuhPzeL+Xkp4jCQv0TdfaaFeUnED3we8i8LLcVpEOcf1XLOcqGtiDrukdZ+WRRpP8cZuOiKCMpIksmY+Y75a2gn3XsbE29r29zlUmKrJSWC+E9v7wuYnyhLYRTtRY434sTSoWcw/yrrrDZhtG/ePutDz3hALlmQfdbfpCzq3x6utwU8uQMM8EUoa2RxwL3R5EWYwjPWop7WduH3re5lqSioA9t5bhES6PbShlJFEC/XV5XtN4MYVphnquTVAyTc7ukKI2L3/tgKVVM0DFbintlO3IhYNO6c5JawxYeMNv4r1ikNO3IgeCW3y+wLkndBeDyHb/lRhZlawDT9In17ayq3mvbXFWSigNwRGenYc060xSGsp5lgf33CILrOcTRDMIxKkaSRWsx4RkyIe233YXBLoqaQQhhiBHVm4z0rNNBWjM76OAqG+DvAXhnxHBeoRJ4rwxpdLgPHRbF3WbvTG5D0m8hfKXGgPKwvi1cCS59Jg+ujO8JCRVSn/mVKC5js9rQH4eywDxkhVkce0vqqOBYi6Iu6u2vSwhuYjkHyd0UPPnOw4LudJjDqM3lDnAFk53FMB07khQOK9cUV6d700+ZXtL5m8I8jmAWetAnc5iP0tFmXnFZTgOIxA8PCcx/jcBlCx6+jxLbo6R7KgJgqG0LCYSnKPvCTicwF47JxhUOMl8o6rKMpFDiPv9N5cxFZORf8LeadrZa73VtripJ/R5IR6+iABXo7k/3qyL8vfWgKybnFRqJlDQTkjXrbd4o2fkQl0ZDR/hsLm6MwT8Rv3fBz4kfQ6Qbzh1GZLxP+4q8sbBytM7CQpiaTkb6O0adYhy4qjlCTqsLXnGVxKlhkV22uhYcBX+P/uiSsMyZqy4iCQ5c29uFKCAT+UuxgqTorhmbv6VUZg6erGMSByC6XnZKBpy/O/5Pjl2RFGuVbYHhLlKndIjY7/Fn7DQ7EFhBUmXOnIP0NfRFzE7yqGdnVfRez+aqkhRRTj/k19YCGVxbv/uTTc4eCY8JSSlTTbYq8d81kUT0rSt/r37OBR2nw/tFdpeghnmUj8wE5lc2f182YfF3h1/bg56vmyri7EskVY7JB/6cJpJZCz/7XIaqjl5OUtmuGU/JVSCLgnSAyIcuv9Y6w0hK49QUOyOpNWxhJZBERL85MtoGSZEdeuutv7at6OxsE70voLW5qiSFK6FdcuNKEGPLRSVFkPsOMe9NQUhKEyVkxtVXO3bZ5C4VZXHyXtrQeedCVxArnRBimLqxqCYsk7EYzeWhdRQGtiFw4UCHFFpZkd8+ccGRK3ZVcoth5rPiKKlN8IK0+y5LS9URTBFlJFX1eAK5T6blCeqDpEwoX/vdELyQpAsF7Iqk1rEFgSjElFVuALHGisgdcP7uwiHvN/e+jUmKp5nsPpZx6GqONeysmt7r2FxVkkowpeI31qpJ6SZ5CYSQZPSiupZHqWMzaCZ3jtGNyIXZDqDzYQjDiyH06e4TaxqS0o2lnKTKSUR3X3I9zGoVaDC901TWYYFgV/W/wD1GtrIOxHYX3bSvCxd6dr6guw2SKk0FCdRjR8Meu4piLhLWqQezQlC6K5JaxxZYlB7I+g7bnXagv9B/v+DAhX43JCl5ml5ZbkhR185W6r22zVUlKcbAZ+IFPfALdYCVqBFJWeeKSGqbJCUNDPPyK9XxBJLubYGkpudCfzUiqQR1wKO65bpHChmG63QgwaITnn4d9SFUzaUMvbdDUmtHUmS3KUMC8U0Aow8OtKmzHDgQkDE8B5KS15AsRvTojABJ93L9bkBSWaHcAue7ptywgZ2V6/0xbC4FISkEMqyMOorF6yWgg590YCgPGm2pJrVFksrqVJoUccskVa0mRetrZCxy4wL706yA1UlqCgO+UnZUGxgMWyWpDWpSJYi+uzIlokdLmk9ShIw/aGZq2yT1Bxd/PuelZxw3sLNyvT+GzaXIkxQObXqe1Qda733FLg3iYQ4+2XrtfE0VtpXdvUchKU1kSHaktkFSLGXui/Fpwu34Jz0TRMYijUdT+M/tcGp0IJEZzOGFqtRL6hbYtkFStXf3cFyjL5pDuKQEQech031hZ6wCnpykTnxltEKPquT6rUVSmW5XBhcb2Fm53jezuSSOIWZNYQgFkmKgxoTtgNVxRuBrvt3LKwWjqcI5qfAmWuuc1FbTvZzjjLLaBjmrYll8rK8vYSpEqktSCEaMMve2bHC/BDC9jSG6YcX7dlqLwHeK1WwkiIwSHIbLi8OLC2AKdO2Bg3qVsu45K9Jxmrq3oJ91lp2FkTLsgaON+ihW152Wzkmxj3dXnJMSz+wfsxPp88xI7+cQfhSOnHcodvZN9GW9GaBtBuBdODAIVo/jaUiqsGBfkZPWbFzn7Fwf6p/Pt/2ZHJwkdtw68yBEvwvGIfcxFUmRjYcqh7A3sLNyvW9icyURIkJBUgwxhB/KTw6nJKSItDY8cb7dwjlGhhf6cbDTz5OxiLaIgjYgqcU7taeSsR1gVPcz65+ON8JUmBZUaVuc1P2RnWXT6UkCw3/1qXxsVhudPpQrn1anOVQpjq9/4jy5Genl5G0pfaHn0WirkEI+FUlBggu21g+YD0wwGBB/k+eUY3Mg5V+FM5PzjYvdOeXJc9ZwEU6fqG9nq/Re2+ZqkVSK5E9x6z79Bsf94sNUPV8c9b/d2y5Jpch9R1f8juwOw1se/UkFbURSKfLfHorvtdBBF8aG6bL4r3AK402fE3rbh9axA5cBRhiLX2cwEhHJKpJi4N83il3MvAzYG672qTFui6RSrP3t3kMMs4W9FL8jY9GY+pnkegSO+AQDnbPDji38pquzGk9GUgwPEYSfs02Aog/EoctT//xzyfUl9PjRgPSozIhH+QpnJnZf3vLjrWtnK/Vey+Y2IKn/JyS6QzmPiLrv3KqsSQxJhQOUBo+EB0yznt70KuHRfGJNmzMkZWBg0GgYkjIwMGg0DEkZGBg0GoakDAwMGg1DUgYGBo2GISkDA4NGw5CUgYFBo2FIysDAoMEA+B/lNw/930no3gAAAABJRU5ErkJggg==" InformativeScreenshot="41063eeb845bd187a333acc7a141c103.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Comanda a fost finalizata!' /&gt;" SearchSteps="FuzzySelector" />
+                              </uix:VerifyExecutionOptions.Target>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,59" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;Thank you for your valuable contribution!&quot;]" />
+                        <uix:NNavigateBrowser Action="CloseTab" DisplayName="Navigate Browser - Close Tab" sap:VirtualizedContainerService.HintSize="484,81" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" />
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence sap:VirtualizedContainerService.HintSize="376,274" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;Looks like you don't have any money left this month...&quot;]" />
+                        <uix:NNavigateBrowser Action="CloseTab" DisplayName="Navigate Browser - Close Tab" sap:VirtualizedContainerService.HintSize="334,81" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_2" />
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,215" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:RestoreWindow Window="{x:Null}" DisplayName="Restore Window" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="RestoreWindow_1" />
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Please sign in and then retry running the process&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=product/product&amp;path=111_3274&amp;product_id=18126" ContentHash="juCexwM3j06Qb_cb5gK3DA" DesignTimeRectangle="1439, 614, 146, 34" ElementType="Button" FriendlyName="'Adauga In Cos'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' aaname='Adauga In Cos' check:text='Adauga In Cos' /&gt;" ImageBase64="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" InformativeScreenshot="75b834c90d9afd2b4a8a288ce06bc29b.png" Reference="Q1rXsbL60U61-OkA-uLTiA/-UHlSfcR9ESyyLAb_jm_Gg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Doneaza din bugetul de beneficii - UiPath Foundation' /&gt;" SearchSteps="FuzzySelector" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 2576, 1056" BrowserType="Chrome" ContentHash="Rh6lBvPUmU6h3tGo-XKl5Q" IconBase64="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" InformativeScreenshot="488c461f5362b97375964f8c61d4f617.png" Reference="Q1rXsbL60U61-OkA-uLTiA/xHrNAuJfIEKXlupMcifojw" Selector="&lt;html app='chrome.exe' title='Doneaza din bugetul de beneficii - UiPath Foundation'/&gt;" Url="https://www.benefitsystems.ro/clean/index.php?route=product/product&amp;path=111_3274&amp;product_id=18126" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

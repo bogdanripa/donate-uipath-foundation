@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="nyyWZzWJUEO2JdQDnJHNbA" DesignTimeRectangle="0, 65, 48, 36" FriendlyName="'grouping'" FullSelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Home' role='page tab' /&gt;&lt;ctrl role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Home' role='page tab' /&gt;&lt;ctrl role='grouping' automationid='' /&gt;" ScopeSelectorArgument="&lt;wnd app='uipath.assistant.exe' cls='Chrome_WidgetWin_1' title='UiPath Assistant' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0dgpWVom64EymFrhh-0yq7w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b45071ddd6121bc965ca87285e0bc419.png" xmlns="">0UaGRYgX0EEiiSeltD-C8RA</imageRef>
+</TargetAnchorable>

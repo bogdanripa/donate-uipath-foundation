@@ -1,0 +1,12 @@
+﻿{
+  "Id": "GSRr6umB-keL2gok36alRg",
+  "Reference": "Q1rXsbL60U61-OkA-uLTiA/GSRr6umB-keL2gok36alRg",
+  "ParentRef": "Q1rXsbL60U61-OkA-uLTiA/wOqJNuH-Xkq4L1dyjO7Mug",
+  "Name": "CheckOut",
+  "Type": "Screen",
+  "Created": "2021-02-24T11:10:58.3249645Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-24T11:10:58.3249645Z"
+}

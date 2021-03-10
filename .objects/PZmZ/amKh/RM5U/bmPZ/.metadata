@@ -1,0 +1,14 @@
+﻿{
+  "Id": "bmPZB3-bo0uOvJiwiyb61w",
+  "Reference": "Q1rXsbL60U61-OkA-uLTiA/bmPZB3-bo0uOvJiwiyb61w",
+  "ParentRef": "Q1rXsbL60U61-OkA-uLTiA/RM5UB3RxokWAMnHqMYSjPw",
+  "Name": "Reminders Tab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-03-10T12:53:33.6138469Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-03-10T12:53:33.6138469Z"
+}

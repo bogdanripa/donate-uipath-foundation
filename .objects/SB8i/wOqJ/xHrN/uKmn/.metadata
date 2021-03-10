@@ -1,0 +1,14 @@
+﻿{
+  "Id": "uKmnYLPER0qGBMWkATcRJA",
+  "Reference": "Q1rXsbL60U61-OkA-uLTiA/uKmnYLPER0qGBMWkATcRJA",
+  "ParentRef": "Q1rXsbL60U61-OkA-uLTiA/xHrNAuJfIEKXlupMcifojw",
+  "Name": "Use Budget",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Created": "2021-02-24T11:10:23.0092827Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-24T11:10:23.0092827Z"
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="nyj5OG8jrEiiCz5-iiMkcQ" DesignTimeRectangle="48, 64, 48, 36" FriendlyName="'page tab Reminders'" FullSelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Reminders' role='page tab' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Reminders' role='page tab' automationid='' /&gt;" ScopeSelectorArgument="&lt;wnd app='uipath.assistant.exe' cls='Chrome_WidgetWin_1' title='UiPath Assistant' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0XXc4AMxWUEuy7Lt3riJTtQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="7c500d17db6be394db188a91f73bcd74.png" xmlns="">0ebGyFrE78k2rIi17zVl4jg</imageRef>
+</TargetAnchorable>

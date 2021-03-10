@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=checkout/success" ContentHash="-bI6DU38MESQu6ZCoQaYcw" DesignTimeRectangle="970, 371, 293, 31" FriendlyName="'Comanda a'" FullSelectorArgument="&lt;webctrl id='title-page' tag='H1' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl id='title-page' tag='H1' type='' check:text='Comanda a fost finalizata!' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Comanda a fost finalizata!' /&gt;" SearchSteps="FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0EnyvvyRHyEGbnpw39qh6lQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2bbb8ba4885fe97bb57c1407b5d0d3fc.png" xmlns="">0hWLckfBS4Em5-4RGVrvRSw</imageRef>
+</TargetAnchorable>

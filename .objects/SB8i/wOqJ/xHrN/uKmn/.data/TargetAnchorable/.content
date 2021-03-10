@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=product/product&amp;path=111_3274&amp;product_id=18126" ContentHash="VKDd_OiKv0G2MaU7krhP7g" DesignTimeRectangle="1439, 537, 13, 13" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' aaname='' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Doneaza din bugetul de beneficii - UiPath Foundation' /&gt;" SearchSteps="FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1439, 503, 402, 25" ElementType="Text" FriendlyName="'Bugetul de'" FullSelectorArgument="&lt;webctrl aaname='Bugetul de beneficii [NET]' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Bugetul de beneficii [NET]' tag='LABEL' type='' check:text='Bugetul de beneficii [NET]' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">0rQBoYODgDkqXAVq2ZKg0yg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="InformativeScreenshot" originalValue="773acbedf278073f8247f9fd6160e2c9.png" xmlns="">0GrjSV0WJbUqBsObxc2R7uA</imageRef>
+</TargetAnchorable>

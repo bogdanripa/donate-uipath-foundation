@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" ContentHash="mw5IqHRbakupsr2zN-20LA" FilePath="C:\Users\bogdan.ripa\AppData\Local\UiPath\app-21.2.0-beta0041\UiPathAssistant\uipath.assistant.exe" Selector="&lt;wnd app='uipath.assistant.exe' cls='Chrome_WidgetWin_1' title='UiPath Assistant' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0fcBjT1uNc0OTKWWVsd4Y7w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="f56d52fe08ce0cb95cf5f1d1ce757236.png" xmlns="">0WxOw7ZrBekuxEE8YvUOF9w</imageRef>
+</TargetApp>

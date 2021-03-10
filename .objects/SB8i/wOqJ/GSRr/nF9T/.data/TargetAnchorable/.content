@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.benefitsystems.ro/clean/index.php?route=checkout/checkout" ContentHash="6_BGkqoa_EmFbs_y2wwKxw" DesignTimeRectangle="1097, 618, 180, 35" ElementType="Button" FriendlyName="'Confirma comanda'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' aaname='Confirma comanda' check:text='Confirma comanda' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Finalizeaza comanda' /&gt;" SearchSteps="FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0aPu-Sok8ZUOLU0IIIHRSRw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="09c49f748a8b05d39e9bd5430c94b213.png" xmlns="">01UhooMkIF0GACWdQyFLiqA</imageRef>
+</TargetAnchorable>

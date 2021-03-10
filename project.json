@@ -1,0 +1,65 @@
+{
+  "name": "Donate to the UiPath Foundation",
+  "description": "At the end of each moth, use your remaining benefits budget to donate to the UiPath Foundation",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.10.2-preview]",
+    "UiPath.Form.Activities": "[1.2.1-preview]",
+    "UiPath.Mail.Activities": "[1.10.2-preview]",
+    "UiPath.System.Activities": "[21.2.1-preview]",
+    "UiPath.UIAutomation.Activities": "[21.2.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.6.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.2.0.0",
+  "projectVersion": "1.0.4",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Donate.xaml",
+      "uniqueId": "18b1db96-4173-412c-922b-ba68a6e2f8f7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "29bbd1c7-cad9-4652-bdee-201da2262bad",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/1571146217218.jpeg"
+  },
+  "targetFramework": "Legacy"
+}

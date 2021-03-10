@@ -1,0 +1,11 @@
+﻿{
+  "Id": "PZmZ6GVvQkqpuwYBdNimvg",
+  "Reference": "Q1rXsbL60U61-OkA-uLTiA/PZmZ6GVvQkqpuwYBdNimvg",
+  "Name": "Assistant",
+  "Type": "App",
+  "Created": "2021-03-10T12:52:42.6962907Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-03-10T12:52:42.6962907Z"
+}

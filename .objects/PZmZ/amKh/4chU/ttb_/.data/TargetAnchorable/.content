@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="tJWZ_4riT0mk2_BpUYs9dg" DesignTimeRectangle="16, 165, 179, 32" ElementType="Button" FriendlyName="'Add new reminder'" FullSelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Add new reminder' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Reminders' role='property page' /&gt;&lt;ctrl name='Add new reminder' role='push button' automationid='' check:text='Add new reminder' /&gt;" ScopeSelectorArgument="&lt;wnd app='uipath.assistant.exe' cls='Chrome_WidgetWin_1' title='UiPath Assistant' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0PmLP5Oow1k69vPZkw1SMkg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c4d580abbc84334029a1172932760693.png" xmlns="">0ZJnkzg5ZFEmAoRkUEMxxyA</imageRef>
+</TargetAnchorable>

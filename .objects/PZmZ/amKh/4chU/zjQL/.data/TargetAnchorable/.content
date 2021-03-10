@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="QV-bgoN8PUufJVRBH5Owwg" DesignTimeRectangle="24, 228, 402, 19" ElementType="DropDown" FriendlyName="'combo box Select Process'" FullSelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Select Process' role='grouping' /&gt;&lt;ctrl name='Select Process' role='combo box' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Select Process' role='grouping' /&gt;&lt;ctrl name='Select Process' role='combo box' automationid='' /&gt;" ScopeSelectorArgument="&lt;wnd app='uipath.assistant.exe' cls='Chrome_WidgetWin_1' title='UiPath Assistant' /&gt;" SearchSteps="Selector, FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0P7zA7JQ3Ikq1t35etfkCFQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="fdd3fe972d1575949b50f225834b5346.png" xmlns="">0W8C7TN8yKkupv9MM5Swtiw</imageRef>
+</TargetAnchorable>

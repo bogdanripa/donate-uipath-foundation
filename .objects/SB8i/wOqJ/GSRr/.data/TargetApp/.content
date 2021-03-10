@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="ObX6GGXLFk6jsEy8PeJIjw" Selector="&lt;html app='chrome.exe' title='Finalizeaza comanda' /&gt;" Url="https://www.benefitsystems.ro/clean/index.php?route=checkout/checkout" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0p6MKVIKwyU2fWnYxzhViCA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="529e977a7405b6034c9f292a03b976ee.png" xmlns="">0t1-qunBr80G_fL2E_39jDg</imageRef>
+</TargetApp>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="ycqgPBGrGUuDzXfvIqO7cA" DesignTimeRectangle="18, 428, 212, 32" FriendlyName="'Monthly'" FullSelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Select Frequency' role='list' /&gt;&lt;ctrl name='Monthly' role='list item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Select Frequency' role='list' /&gt;&lt;ctrl name='Monthly' role='list item' automationid='' check:text='Monthly' /&gt;" ScopeSelectorArgument="&lt;wnd app='uipath.assistant.exe' cls='Chrome_WidgetWin_1' title='UiPath Assistant' /&gt;" SearchSteps="Selector, FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0xOrMZCB7y0GD1eSh9ZpfqQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="672f8957044889baea4fc1cc313551a5.png" xmlns="">0oj8J1vH17k6RyGlSYxHgAw</imageRef>
+</TargetAnchorable>

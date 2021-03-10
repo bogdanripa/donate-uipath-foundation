@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="Cc3NHysOYkCGq70JvnbTlA" DesignTimeRectangle="24, 300, 170, 32" FriendlyName="'Once'" FullSelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Once Select Frequency' role='combo box' /&gt;&lt;ctrl idx='1' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Once Select Frequency' role='combo box' /&gt;&lt;ctrl automationid='' role='grouping' check:text='Once' /&gt;" ScopeSelectorArgument="&lt;wnd app='uipath.assistant.exe' cls='Chrome_WidgetWin_1' title='UiPath Assistant' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0k5TcgD2C1E2wVuiEMm6MhA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e349b77c4dc0e660c99a0a976dee04cf.png" xmlns="">0rsLExyY1IkKIk6_z73kScg</imageRef>
+</TargetAnchorable>

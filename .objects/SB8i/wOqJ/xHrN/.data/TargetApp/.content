@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="-8, -8, 2576, 1056" BrowserType="Chrome" ContentHash="Rh6lBvPUmU6h3tGo-XKl5Q" Selector="&lt;html app='chrome.exe' title='Doneaza din bugetul de beneficii - UiPath Foundation'/&gt;" Url="https://www.benefitsystems.ro/clean/index.php?route=product/product&amp;path=111_3274&amp;product_id=18126" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0wMvaSBXUGUS5fJhsJnMoGA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="488c461f5362b97375964f8c61d4f617.png" xmlns="">0Sx2fl8bG9k2aDP34Un7CeA</imageRef>
+</TargetApp>

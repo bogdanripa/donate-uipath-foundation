@@ -1,0 +1,14 @@
+﻿{
+  "Id": "nF9TQVth1EShl776F83mvw",
+  "Reference": "Q1rXsbL60U61-OkA-uLTiA/nF9TQVth1EShl776F83mvw",
+  "ParentRef": "Q1rXsbL60U61-OkA-uLTiA/GSRr6umB-keL2gok36alRg",
+  "Name": "Confirm",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-02-24T11:11:33.4764126Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-24T11:11:33.4764126Z"
+}

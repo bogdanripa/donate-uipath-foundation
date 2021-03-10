@@ -1,0 +1,14 @@
+﻿{
+  "Id": "KLmhh2fSd0-Yc5fgTkiQmw",
+  "Reference": "Q1rXsbL60U61-OkA-uLTiA/KLmhh2fSd0-Yc5fgTkiQmw",
+  "ParentRef": "Q1rXsbL60U61-OkA-uLTiA/4chUagiBRUuVDjCgjKF3SA",
+  "Name": "Home tab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-03-10T13:02:04.0895502Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-03-10T13:02:04.0895502Z"
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Id": "4chUagiBRUuVDjCgjKF3SA",
+  "Reference": "Q1rXsbL60U61-OkA-uLTiA/4chUagiBRUuVDjCgjKF3SA",
+  "ParentRef": "Q1rXsbL60U61-OkA-uLTiA/amKhVg5cQ0y_IAoK110c4Q",
+  "Name": "Reminders",
+  "Type": "Screen",
+  "Created": "2021-03-10T12:54:53.403767Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-03-10T12:55:36.4140439Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

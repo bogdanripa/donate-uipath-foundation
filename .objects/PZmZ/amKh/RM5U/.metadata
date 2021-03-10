@@ -1,0 +1,14 @@
+﻿{
+  "Id": "RM5UB3RxokWAMnHqMYSjPw",
+  "Reference": "Q1rXsbL60U61-OkA-uLTiA/RM5UB3RxokWAMnHqMYSjPw",
+  "ParentRef": "Q1rXsbL60U61-OkA-uLTiA/amKhVg5cQ0y_IAoK110c4Q",
+  "Name": "Home",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2021-03-10T12:53:10.3466165Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-03-10T12:53:10.3466165Z"
+}

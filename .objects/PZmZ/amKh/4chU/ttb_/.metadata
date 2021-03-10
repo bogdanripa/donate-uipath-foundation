@@ -1,0 +1,14 @@
+﻿{
+  "Id": "ttb_QRNgAkmOAwUq97glwA",
+  "Reference": "Q1rXsbL60U61-OkA-uLTiA/ttb_QRNgAkmOAwUq97glwA",
+  "ParentRef": "Q1rXsbL60U61-OkA-uLTiA/4chUagiBRUuVDjCgjKF3SA",
+  "Name": "Add new reminder button",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-03-10T12:55:58.7341403Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-03-10T12:55:58.7341403Z"
+}
