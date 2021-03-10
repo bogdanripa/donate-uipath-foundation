@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="YrddLttURE2NoIDpCig56w" DesignTimeRectangle="64, 217, 370, 48" FriendlyName="'Donate.to.the.UiPath.Fo…'" FullSelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl idx='2' name='Reminders' role='property page' /&gt;&lt;ctrl name='D Donate.to.the.UiPath.Foundation today at 5:13 PM' role='grouping' /&gt;&lt;ctrl role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath Assistant' role='document' /&gt;&lt;ctrl name='Reminders' role='property page' /&gt;&lt;ctrl name='*Donate*UiPath*Foundation*' role='grouping' /&gt;&lt;ctrl role='grouping' automationid='' /&gt;" ScopeSelectorArgument="&lt;wnd app='uipath.assistant.exe' cls='Chrome_WidgetWin_1' title='UiPath Assistant' /&gt;" SearchSteps="FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0vzayRKpjzUevmeWgW1l6jQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="18c82a7ae7196df044a84e80b29750ff.png" xmlns="">0MoEiCGHz_ki-VVLcKIY39Q</imageRef>
+</TargetAnchorable>

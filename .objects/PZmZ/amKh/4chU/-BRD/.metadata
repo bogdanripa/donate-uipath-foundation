@@ -1,0 +1,14 @@
+﻿{
+  "Id": "-BRDNFBuT0i01a23DQrLIg",
+  "Reference": "Q1rXsbL60U61-OkA-uLTiA/-BRDNFBuT0i01a23DQrLIg",
+  "ParentRef": "Q1rXsbL60U61-OkA-uLTiA/4chUagiBRUuVDjCgjKF3SA",
+  "Name": "Donate Reminder",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-03-10T15:14:30.3553443Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-03-10T15:14:30.3553443Z"
+}
