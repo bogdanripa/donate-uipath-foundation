@@ -260,7 +260,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <f:FormBox Buttons="OkCancel" ChosenButton="[btn]" Height="200" sap:VirtualizedContainerService.HintSize="484,22" sap2010:WorkflowViewState.IdRef="FormBox_2" Message="Please sign in and then click OK to continue" Title="Message Box" Width="400" />
-                  <If Condition="[btn = &quot;ok&quot;]" sap:VirtualizedContainerService.HintSize="484,239" sap2010:WorkflowViewState.IdRef="If_4">
+                  <If Condition="[btn = &quot;Ok&quot;]" sap:VirtualizedContainerService.HintSize="484,239" sap2010:WorkflowViewState.IdRef="If_4">
                     <If.Then>
                       <Assign sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="Assign_3">
                         <Assign.To>
